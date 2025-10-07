@@ -14,8 +14,6 @@ module seq_multi_4b (
     // Status signals
     wire q_lsb, count_done;
 
-    // Minimal ordered instantiation
-
     // Control Unit
     ControlUnit cu (clk, rst, start, q_lsb, count_done,
                     ld_a, ld_b, ld_q, shift_en, add_en, reset_count, done);
