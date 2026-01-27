@@ -1,4 +1,4 @@
-module tb_top;
+module sm_tb;
 
   reg clk, rst, start;
   reg [3:0] A_in, B_in;
